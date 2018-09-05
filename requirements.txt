@@ -1,7 +1,5 @@
 PyYAML
 httplib2
 oauth2
-python-twitter
 simplejson
-wsgiref
 xmpppy

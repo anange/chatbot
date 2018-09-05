@@ -63,7 +63,7 @@ class Examplebot(ChatBot):
     def chinese_telephone(self, m, text, user):
         ''' pass a private message via groupchat '''
         target = m.group(3).strip()
-        if target in self.aliases.keys():
+        if target in list(self.aliases.keys()):
             target = self.aliases[target]
 
         payload = m.group(5).strip()
